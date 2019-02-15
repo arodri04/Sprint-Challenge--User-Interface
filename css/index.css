@@ -157,7 +157,7 @@ header nav a {
     text-decoration: none;
 }
 
-.about-banner {
+.index-banner {
     margin: 30px 400px;
 }
 .box1 {
@@ -259,4 +259,35 @@ header nav a {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.about-banner{
+    margin: 30px 390px;
+}
+.about-top-text {
+    width: 800px;
+    margin-left: 390px;
+    padding-bottom: 30px;
+    border-bottom: 1px dotted black;
+}
+
+.container.about-page {
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+}
+.container.about-page div {
+    margin: 30px 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px dotted black;
+}
+.bottom-text {
+    margin-bottom: 30px
+}
+.container.about-page button {
+    background: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
 }
